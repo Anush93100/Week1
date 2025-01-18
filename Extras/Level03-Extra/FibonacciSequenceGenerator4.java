@@ -7,7 +7,7 @@ public class FibonacciSequenceGenerator4{
 	public static void fibonacciSeries(int number){
 		int a=0, b=1;
 		System.out.print(a+ " " +b);
-		for(int i=3s;i<=number;i++){
+		for(int i=3;i<=number;i++){
 			int fib=a+b;
 			a=b;
 			b=fib;
